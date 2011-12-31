@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Sequenced Bits]]></title>
+  <link href="http://harpreet.github.com/atom.xml" rel="self"/>
+  <link href="http://harpreet.github.com/"/>
+  <updated>2011-12-30T21:36:31-08:00</updated>
+  <id>http://harpreet.github.com/</id>
+  <author>
+    <name><![CDATA[Harpreet Dhaliwal]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Limits of Visual Processing]]></title>
+    <link href="http://harpreet.github.com/blog/limits-of-visual-processing"/>
+    <updated>2011-11-27T11:18:00-08:00</updated>
+    <id>http://harpreet.github.com/blog/limits-of-visual-processing</id>
+    <content type="html"><![CDATA[<p>Normally it&#8217;s difficult to get to a question and answer it on StackOverflow before it already has plenty of responses, but with some of the less visited StackExchange sites questions last longer.  I came across this one on programmers.stackexchange:</p>
+
+<p><em><strong><a href="http://programmers.stackexchange.com/questions/1877/how-much-information-can-a-user-reasonably-process-from-a-ui">How much information can a user reasonably process from a UI</a></strong></em></p>
+
+<p>This happens to be a topic I&#8217;ve done some work on and was able to post an answer before the page was saturated.</p>
+
+<p>My answer reproduced with minor edits:</p>
+
+<blockquote><p>There is research into this topic but it will give you a complex answer. You can increase how much a person can take in from a UI if you use different sensory modalities rather than just one. For example using sights and sounds you may be able to pump more information into a user than using just sight or just sound. There are also findings that suggest that if your user has to really process or think about the inputs there are more significant bottlenecks that are more difficult to avoid even if you cross sensory modalities. Training helps. Expert users can process more but in the typical cases you will run into limits.</p><p>But to get down to your question of how fast you can change the display in particular table: You can look into the Psychology literature on the topic of &#8220;Attentional Blink&#8221; and &#8220;Psychological Refractory Period (PRP)&#8221; but the general advice that I can give you from that is don&#8217;t push faster than changes every 500ms for a single watched location. Typical users can need that much time to process even simple single location changing input. If you&#8217;re doing it continuously 500ms is a speedy but perhaps roughly workable rate. You may be able to push down to 250ms but this will depend on what percentage of your users you&#8217;re willing to put off. Also if your users are having to scan multiple locations for possible changes you may have to slow down even from a 500ms change rate. This doesn&#8217;t necessarily mean 1000ms if you have two locations. It&#8217;s not a linear relationship but the answer for that is going to be more complex and depend a lot more on what your UI looks like exactly.</p></blockquote>
+
+
+<p><em><a href="http://en.wikipedia.org/wiki/Attentional_blink">http://en.wikipedia.org/wiki/Attentional_blink</a></em></p>
+
+<p>Even though this is technically correct information I provided, the answer to go with in a practical setting is: &#8220;Complicated. Requires exploratory testing.&#8221;</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Software Prices 1987-2010]]></title>
+    <link href="http://harpreet.github.com/blog/software-prices-1987-2010"/>
+    <updated>2011-10-27T11:12:00-07:00</updated>
+    <id>http://harpreet.github.com/blog/software-prices-1987-2010</id>
+    <content type="html"><![CDATA[<p>I found some old issues of COMPUTE and BYTE magazine on eBay and decided to buy them.  The articles are not quite as riveting as when I flipped through them as a kid, instead the ads are now more interesting.  I found some prices of old software such as Lotus 1-2-3, WordPerfect 4.2 and a golf game called World Class Leaderboard.  I adjusted the old prices for inflation and looked up the prices for the modern equivalents.</p>
+
+<br />
+
+
+<p>Here&#8217;s the comparison:</p>
+
+<br /><br />
+
+
+<p> <img alt="Software prices 1987 vs. 2010 (in 2010 dollars)" height="375" src="http://chart.apis.google.com/chart?chxl=0:|Lotus+1-2-3++Office+'10|WordPerfect++Office+'10|PC+Golf+game++PGA+Tour+(Wii)&amp;chxp=0,70,270,490&amp;chxr=0,0,600|1,0,700&amp;chxs=0,676767,12.5,0,l,676767|1,676767,12.5,0,l,676767&amp;chxt=x,y&amp;chbh=a,10,14&amp;chs=600x375&amp;cht=bvg&amp;chco=4D89F9,C6D9FD,FF9900&amp;chds=0,700,5,700,0,700&amp;chd=t:631,401,85|122,122,56|-1&amp;chdl=1987+price+(in+2010+dollars)|2010+price&amp;chtt=Software+prices+1987+vs.+2010+(in+2010+dollars)&amp;chts=111111,11.5" width="600" /></p>
+
+<p>Software prices 1987 vs. 2010 (in 2010 dollars)  <br /><br /></p>
+
+<p>This is dramatic but even more so when you consider that it doesn&#8217;t take into account that:  <br /></p>
+
+<ul>
+<li>Office is a whole suite of software rather than just a word processor or spreadsheet</li>
+<li>The 2010 software will be much better along almost any dimension that matters to users</li>
+<li>As a share of disposable income the modern software is even more affordable than the graph suggests</li>
+<li>There are even free software packages that would deliver far more functionality than the 1987 equivalents</li>
+</ul>
+
+
+<br />  
+
+
+<p>It&#8217;s good to see that it&#8217;s not only hardware that keeps getting better and cheaper.  It&#8217;s interesting to speculate why this might be happening in software. A lot of it is likely due to market growth that allows for lower prices per unit but some of the difference may be driven by an increase in software development productivity.</p>
+]]></content>
+  </entry>
+  
+</feed>
